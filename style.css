@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width:1170px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    
+}
+.align-center{
+    align-items: center;
+
+}
+body{
+    font-family: var(--primary-font);
+}
+:root{
+    --primary-font: 'Ubuntu', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+    --third-font: 'Abril Fatface', cursive;
+    --primary-color: #0f2f44 ;
+    --secondary-color: #ffc712;
+}
+/*header starts*/
+header{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+}
+header .welcome,
+.opening{
+    width: 50%;
+}
+header .opening p{
+    text-align: right;
+}
+/*header ends/*
+/*nav starts*/
+nav .logo{
+      width: 30%;
+} 
+
+nav .menu{
+    width: 70%;
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    padding: 40px 18px;
+    display: block;
+    transition: .3;
+
+}
+nav .menu ul li .active,
+nav .menu ul li:hover a{
+    background-color:#fff9e6 ;
+    color: var(--secondary-color);
+}
+nav .menu ul li span{
+    width: 30px;
+    height: 30px;
+    display: block;
+    color: #999;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+/*nav ends/*
+/*banner starts*/
+#banner{
+    background-image: url(../img/banner.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .banner-content{
+    width: 40%;
+    color: var(--primary-color);
+}
+#banner .row{
+    height: 600px;
+}
+#banner .banner-content h2{
+    font-weight: 300;
+    font-size: 50px;
+    
+}
+#banner .banner-content h1{
+    font-family: var(--third-font);
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 400px;
+    line-height: 64px;
+}
+#banner .banner-content h3{
+    font-family: var(--primary-font);
+    font-weight: 400px;
+    font-size:32px ;
+    color: #8484bf;
+    letter-spacing: 10px;
+    margin-top: 5px;
+    
+}
+#banner .banner-content p{
+    font-family: var(--secondary-font);
+    font-weight: 500px;
+    font-size: 14px;
+    margin: 15px 0;
+}
+#banner .banner-content .explorer{
+    background-color: #8484bf;
+    padding: 16px 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 7px;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 15px 0;
+}
+#banner .banner-content a:last-child{
+     width: 40px;
+     height: 40px;
+     background-color: white;
+     display: inline-block;
+     text-align: center;
+     line-height: 40px;
+     color: #8484bf;
+     border-radius: 50%;
+     margin-left: 20px;
+     box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.116);
+    
+}
+
+/*banner ends/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
